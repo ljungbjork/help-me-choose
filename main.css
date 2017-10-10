@@ -3,7 +3,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 50px;
   background-color: #9CED9C;
 }
 
@@ -28,6 +28,8 @@ h1{
 
 input {
   margin-top: 10px;
+  color: red;
+  background-color: blue;
 }
 
 .addOption{
@@ -39,4 +41,18 @@ input {
 .goOption{
   background-color: #6B2136;
   color: white;
+}
+
+::placeholder{
+  color: white;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 200px;
+    }
+
+button{
+  padding: 20px 30px;
 }
