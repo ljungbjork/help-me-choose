@@ -28,8 +28,8 @@ h1{
 
 input {
   margin-top: 10px;
-  color: red;
-  background-color: blue;
+  color: black;
+  background-color: #d966ff;
 }
 
 .addOption{
@@ -41,10 +41,11 @@ input {
 .goOption{
   background-color: #6B2136;
   color: white;
+  border-radius: 80%;
 }
 
 ::placeholder{
-  color: white;
+  color: black;
 }
 
 img {
@@ -55,4 +56,18 @@ img {
 
 button{
   padding: 20px 30px;
+}
+
+.resultSection{
+  height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: 60px;
 }
